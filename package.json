@@ -1,0 +1,35 @@
+{
+  "name": "webpack5-guide",
+  "version": "1.0.0",
+  "description": "learn",
+  "private": "true",
+  "scripts": {
+    "start": "webpack server --open",
+    "server": "node server.js",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeJianQ/webpack5-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeJianQ/webpack5-guide/issues"
+  },
+  "homepage": "https://github.com/LeeJianQ/webpack5-guide#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.1",
+    "lodash": "^4.17.21",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-middleware": "^5.0.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
